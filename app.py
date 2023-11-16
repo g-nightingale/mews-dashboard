@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Route for serving the dashboard
 # http://127.0.0.1:5000/
-@app.route('/')
+@app.route('/mews-dasboard')
 def dashboard():
 
     # Load config dict
