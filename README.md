@@ -45,7 +45,7 @@ Make sure that the security group associated with your EC2 instance allows inbou
 
 #### Logging into EC2
 ```
-ssh -i gn-ec2-kp.pem ubuntu@18.130.235.202
+ssh -i kp.pem ubuntu@**.***.***.***
 ```
 
 To log out from an EC2 instance after you've finished your SSH session, you can simply type exit or press Ctrl+D. This will end the SSH session and log you out, returning you to your local machine's command prompt or terminal.
